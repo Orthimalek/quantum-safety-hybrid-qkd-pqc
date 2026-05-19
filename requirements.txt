@@ -1,0 +1,11 @@
+# Two Roads to Quantum Safety — Simulation Dependencies
+# Tested with Python 3.13 on macOS 14 (Apple Silicon)
+# Reproducibility verified: seed = 42 yields identical Table II-IV / Fig 5-6 outputs.
+
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+
+# Required only for Section V-H (Qiskit statevector validation, Fig 7)
+qiskit>=2.0
+qiskit-aer>=0.15
